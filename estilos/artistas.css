@@ -1,0 +1,163 @@
+body {
+    /*Rezetando a formatação do documento para evitar bordas em branco*/
+    margin: 0;
+    padding: 0;
+}
+/*Iniciando a estilização do cabecalho*/
+#logo {
+    /*Ajustando a logo*/
+    width: 100px;
+    height: 100px;
+}
+#titulo {
+    /*Aplicando a fonte do Google Fonts*/
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+#voltar {
+    /*Ajustando o icone de voltar*/
+    width: 35px;
+    height: 35px;
+}
+.logo {
+    /*Alinhando a logo*/
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo {
+    /*Alinhando o titulo*/
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.voltar {
+    /*Alinhando o icone de voltar*/
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho {
+    /*Alinhando a div pai do cabeçalho*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #63563b;
+    width: 100%;
+}
+/*Fim do cabeçalho*/
+/*Início Banner*/
+#banner{
+    /*estilizando a fonte*/
+    font-size: large;
+    font-weight: bold;  
+}
+.banner{
+    /*estilizando a div*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(99, 86, 59, 0.35);
+    width: 100%;
+    height: 30px;
+}
+/*Fim Banner*/
+/*início sessão discos de vinil*/
+p{
+    font-family: monospace;
+}
+.informações{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* impede que conteúdo vaze */
+}
+#nome{
+    font-size: 18px;
+    font-weight: bold;
+    flex-grow: 1;
+}
+#ouca{
+    width: 30px;
+    height: auto;
+}
+.icon{
+    width: 200px; /* Aumenta o tamanho da imagem */
+    height: auto;
+    border-radius: 50%; /* Mantém a proporção */
+    object-fit: contain; /* Garante que toda a imagem fique visível */
+}
+.artista{
+    width: 300px;              /* Largura fixa */
+    height: 350px;
+    padding: 10px; /* Ajusta o espaçamento interno */
+    background-color: rgba(99, 86, 59, 0.35);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    box-sizing: border-box;
+    overflow: hidden; /* impede que conteúdo vaze */
+}
+.fileira{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+/*Final da dessão discos de vinil*/
+/*Inicio do rodapé*/
+#whatsapp{
+    height: 55px;
+    width: auto;
+}
+#instagram{
+    height: 70px;
+    width: auto;
+}
+#sistema{
+    height: 40px;
+    height: auto;
+}
+.links{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 5px;
+}
+.sistema{
+    display: flex;
+    justify-content: right;
+    align-self: center;
+    margin: 5px;
+}
+.rodape_conteudo{
+    width: 50%;
+}
+.rodape_titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(99, 86, 59, 0.35);
+    width: 100%;
+    height: 30px;
+}
+#rodape_titulo{
+    font-weight: bold;
+    font-size: large;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #63563b;
+}
+/*Final do rodapé*/

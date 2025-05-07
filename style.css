@@ -1,0 +1,444 @@
+body {
+    /*Rezetando a formatação do documento para evitar bordas em branco*/
+    margin: 0;
+    padding: 0;
+}
+
+/*Iniciando a estilização do cabecalho*/
+#logo {
+    /*Ajustando a logo*/
+    width: 100px;
+    height: 100px;
+}
+
+#titulo {
+    /*Aplicando a fonte do Google Fonts*/
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.logo {
+    /*Alinhando a logo*/
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    /*Alinhando o titulo*/
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisar {
+    /*Alinhando o icone de compartilhamento*/
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho {
+    /*Alinhando a div pai do cabeçalho*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #63563b;
+    width: 100%;
+}
+
+/*Fim do cabeçalho*/
+/*Início do menu*/
+.sobre {
+    /*ajustando o tamanho da div filho*/
+    width: 40%;
+}
+
+.aristas {
+    /*ajustando o tamanho da div filho*/
+    width: 20%;
+}
+
+.discos {
+    /*ajustando o tamanho da div filho*/
+    width: 40%;
+}
+
+#sobre {
+    /*Ajustndo o link da página de sobre a empresa*/
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+}
+
+#artistas {
+    /*Ajustndo o link da página de artistas*/
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+}
+
+#discos {
+    /*Ajustndo o link da página de discos*/
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+}
+
+.menu {
+    /*Alinhando a div pai do menu*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(99, 86, 59, 0.35);
+    width: 100%;
+    height: 30px;
+}
+
+/*Iniciando a estilização dos carrosseis*/
+h1 {
+    font-family: monospace;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    min-width: 350px;
+}
+
+.carrossel {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1.2rem;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    margin: 1.2rem;
+}
+
+.preco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* impede que conteúdo vaze */
+}
+
+#preco {
+    color: #63563b;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.informações {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 5px;
+    /* impede que conteúdo vaze */
+}
+
+#nome_album {
+    font-size: 18px;
+    font-weight: bold;
+    flex-grow: 1;
+    height: 45px;
+    
+}
+
+#compre_agora {
+    width: 35px;
+    height: auto;
+}
+
+.disco {
+    width: 200px;
+    /* Aumenta o tamanho da imagem */
+    height: auto;
+    /* Mantém a proporção */
+    object-fit: contain;
+    /* Garante que toda a imagem fique visível */
+}
+
+.vinil {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 75px;
+    padding: 0.5rem;
+    ;
+}
+
+.card {
+    background-color: rgba(99, 86, 59, 0.35);
+    width: 310px;
+    height: 390px;
+    padding: 10px;
+    margin: 12px;
+    scroll-snap-align: center;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/*Finalizando a estilização dos carrosseis*/
+/*Inicializando a estilização dos banners de informações*/
+/*Inicializando a estilização do banner de artistas do momento*/
+#icon_2 {
+    height: auto;
+    width: 125px;
+    border-radius: 50%;
+}
+
+#medalha_2 {
+    font-size: 25px;
+}
+
+.artista_2 {
+    width: 175px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon_1 {
+    height: auto;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#medalha_1 {
+    font-size: 30px;
+}
+
+.artista_1 {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#icon_3 {
+    height: auto;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#medalha_3 {
+    font-size: 20px;
+}
+
+.artista_3 {
+    width: 150px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.artistas_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.banner_artistas {
+    width: 50%;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(99, 86, 59, 0.35);
+    border-radius: 40px;
+    margin: 1.2rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/*Finalizando a estilização do banner de artistas do momento*/
+/*Inicializando a estilização do banner de artistas do momento*/
+#disco_2 {
+    height: auto;
+    width: 125px;
+    border-radius: 50%;
+}
+
+#medalha_2 {
+    font-size: 25px;
+}
+
+.album_2 {
+    width: 175px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#disco_1 {
+    height: auto;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#medalha_1 {
+    font-size: 30px;
+}
+
+.album_1 {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#disco_3 {
+    height: auto;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#medalha_3 {
+    font-size: 20px;
+}
+
+.album_3 {
+    width: 150px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.albuns_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.banner_albuns {
+    width: 50%;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(99, 86, 59, 0.35);
+    border-radius: 40px;
+    margin: 1.2rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.enunciado {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_banner {
+    display: flex;
+}
+/*Finalizando a estilização dos banners de informações*/
+/*Finalizando a estilização dos banners de informações*/
+/*Inicio do rodapé*/
+#whatsapp{
+    height: 55px;
+    width: auto;
+}
+#instagram{
+    height: 70px;
+    width: auto;
+}
+#sistema{
+    height: 40px;
+    height: auto;
+}
+.links{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 5px;
+}
+.sistema{
+    display: flex;
+    justify-content: right;
+    align-self: center;
+    margin: 5px;
+}
+.rodape_conteudo{
+    width: 50%;
+}
+.rodape_titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(99, 86, 59, 0.35);
+    width: 100%;
+    height: 30px;
+}
+#rodape_titulo{
+    font-weight: bold;
+    font-size: large;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #63563b;
+}
+/*Final do rodapé*/
